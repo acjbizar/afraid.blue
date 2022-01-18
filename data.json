@@ -1,0 +1,19 @@
+{
+  "artist": {
+    "email": "ego@acjs.net",
+    "location": "The Hague, Netherlands",
+    "name": "Alexander Christiaan Jacob",
+    "twitter": "ACJ",
+    "url": "https://alexanderchristiaanjacob.com/"
+  },
+  "artwork": {
+    "dir": "ltr",
+    "lang": "en",
+    "description": "Hommage to Barnett Newman. Website and domain, 2022.",
+    "title": "Who’s Afraid of The Blues",
+    "themeColor": "white",
+    "image": "https://deidee.com/logo.png?str=hetcanvas",
+    "url": "https://afraid.blue/"
+  },
+  "body": "<h1>Who’s Afraid of The Blues</h1>"
+}

@@ -1,0 +1,4 @@
+Contact: mailto:ego@acjs.net
+Expires: 2023-01-18T20:13:02+01:00
+Preferred-Languages: en
+Canonical: https://afraid.blue/.well-known/security.txt
