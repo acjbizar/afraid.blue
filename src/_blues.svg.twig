@@ -4,9 +4,9 @@
 {% for blue in blues %}
         {% set width = width + blue.users %}
 {% endfor %}
-<svg viewBox="0 0 {{ width }} 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 {{ width }} {{ width }}" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
         {% for blue in blues %}
-                <rect fill="{{ blue.color }}" x="{{ x }}" y="0" height="1000" width="{{ blue.users }}"/>
+                <rect fill="{{ blue.color }}" x="{{ x }}" y="0" height="{{ width }}" width="{{ blue.users }}"/>
                 {% set x = x + blue.users %}
         {% endfor %}
 </svg>
