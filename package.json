@@ -1,0 +1,28 @@
+{
+  "name": "afraid.blue",
+  "version": "0.0.1",
+  "description": "Internet artwork in process.",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp render"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acjbizar/afraid.blue.git"
+  },
+  "keywords": [
+    "art",
+    "svg"
+  ],
+  "author": "ACJ",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/acjbizar/afraid.blue/issues"
+  },
+  "homepage": "https://github.com/acjbizar/afraid.blue#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-data": "^1.3.1",
+    "gulp-twig": "^1.2.0"
+  }
+}

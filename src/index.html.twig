@@ -1,0 +1,32 @@
+{% extends "_.html.twig" %}
+{% block body %}
+    {% include '_blues.svg.twig' %}
+    <div style="background:red;height:100%"></div>
+{% endblock %}
+{% block script %}
+    "use strict";
+{% endblock %}
+{% block style %}
+    *,*::after,*::before {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+    html {
+    background: {{ artwork.themeColor }};
+    height: 100%;
+    }
+
+    body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    }
+
+    svg {
+    flex-grow: 1;
+    height: 100%;
+    }
+{% endblock %}
