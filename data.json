@@ -19,13 +19,13 @@
   "blues": [
     {
       "name" : "linkedin",
-      "users": 756,
+      "users": 310,
       "founded": 2002,
       "color": "#0a66c2"
     },
     {
       "name": "facebook",
-      "users": 2895,
+      "users": 2900,
       "founded": 2004,
       "color": "#1877f2"
     },
@@ -34,6 +34,12 @@
       "users": 436,
       "founded": 2006,
       "color": "#1da1f2"
+    },
+    {
+      "name": "mimesia",
+      "users": 0,
+      "founded": 2006,
+      "color": "#2269ca"
     }
   ]
 }
