@@ -23,8 +23,8 @@ gulp.task('render', function() {
 
 gulp.task('images', function () {
     return gulp.src('./web/icon.svg')
-        .pipe(svg2png({width: 1024, height: 1024}))
-        .pipe(gulp.dest('./web/apple-touch-icon.png'));
+        .pipe(svg2png({width: 1024, height: 1024, output: 'apple-touch-icon.png'}))
+        .pipe(gulp.dest('./web'));
 });
 
 // File where the favicon markups are stored
