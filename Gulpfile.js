@@ -6,6 +6,7 @@ const twig = require('gulp-twig');
 const data = require('gulp-data');
 const fs = require('fs');
 const svg2png = require('gulp-svg2png');
+const realFavicon = require ('gulp-real-favicon');
 
 // Compile Twig templates to HTML
 gulp.task('render', function() {
@@ -21,12 +22,10 @@ gulp.task('render', function() {
 });
 
 gulp.task('images', function () {
-    return gulp.src('./web/blues.svg')
+    return gulp.src('./web/icon.svg')
         .pipe(svg2png({width: 1024, height: 1024}))
         .pipe(gulp.dest('./web/apple-touch-icon.png'));
 });
-
-const realFavicon = require ('gulp-real-favicon');
 
 // File where the favicon markups are stored
 const FAVICON_DATA_FILE = 'faviconData.json';
@@ -37,7 +36,7 @@ const FAVICON_DATA_FILE = 'faviconData.json';
 // package (see the check-for-favicon-update task below).
 gulp.task('generate-favicon', function(done) {
     realFavicon.generateFavicon({
-        masterPicture: './web/blues.svg',
+        masterPicture: './web/icon.svg',
         dest: './web',
         iconsPath: '/',
         design: {
@@ -45,7 +44,7 @@ gulp.task('generate-favicon', function(done) {
                 pictureAspect: 'noChange',
                 assets: {
                     ios6AndPriorIcons: false,
-                    ios7AndLaterIcons: false,
+                    ios7AndLaterIcons: true,
                     precomposedIcons: false,
                     declareOnlyDefaultIcon: true
                 }
@@ -58,12 +57,12 @@ gulp.task('generate-favicon', function(done) {
                 backgroundColor: '#da532c',
                 onConflict: 'override',
                 assets: {
-                    windows80Ie10Tile: false,
+                    windows80Ie10Tile: true,
                     windows10Ie11EdgeTiles: {
-                        small: false,
+                        small: true,
                         medium: true,
-                        big: false,
-                        rectangle: false
+                        big: true,
+                        rectangle: true
                     }
                 }
             },

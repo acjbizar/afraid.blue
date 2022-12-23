@@ -2,9 +2,18 @@
     "lang": "en",
     "dir": "ltr",
     "name": "Who’s Afraid of The Blues",
-    "icons": [{
-        "src": "https://afraid.blue/apple-touch-icon-precomposed.png"
-    }],
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
     "scope": "/",
     "id": "https://afraid.blue/",
     "theme_color": "white"
