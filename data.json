@@ -25,15 +25,15 @@
     },
     {
       "name": "facebook",
-      "users": 2900,
+      "users": 3070,
       "founded": 2004,
-      "color": "#1877f2"
+      "color": "#1877F2"
     },
     {
-      "name": "twitter",
-      "users": 436,
+      "name": "x",
+      "users": 611,
       "founded": 2006,
-      "color": "#1da1f2"
+      "color": "#000000"
     },
     {
       "name": "mimesia",

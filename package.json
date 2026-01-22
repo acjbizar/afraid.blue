@@ -1,6 +1,6 @@
 {
   "name": "afraid.blue",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Internet artwork in process.",
   "main": "index.js",
   "scripts": {

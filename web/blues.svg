@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no"?>
 
-<svg viewBox="0 0 3646 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 3991 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
                 <rect fill="#0a66c2" x="0" y="0" height="1000" width="310"/>
-                <rect fill="#1877f2" x="310" y="0" height="1000" width="2900"/>
-                <rect fill="#1da1f2" x="3210" y="0" height="1000" width="436"/>
-                <rect fill="#2269ca" x="3646" y="0" height="1000" width="0"/>
+                <rect fill="#1877F2" x="310" y="0" height="1000" width="3070"/>
+                <rect fill="#000000" x="3380" y="0" height="1000" width="611"/>
+                <rect fill="#2269ca" x="3991" y="0" height="1000" width="0"/>
 </svg>
